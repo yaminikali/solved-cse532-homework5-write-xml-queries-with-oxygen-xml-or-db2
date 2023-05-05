@@ -1,0 +1,6 @@
+Download Link: https://assignmentchef.com/product/solved-cse532-homework5-write-xml-queries-with-oxygen-xml-or-db2
+<br>
+
+
+
+There are three XML documents: purchaseorders.xml, products.xml and customerinfo.xml. These documents are also available in DB2 sample database as purchaserorder(porder), product(description), customer(info). (Some example queries from course lectures can be found XQueryExamples.zip.) You will write XML queries with Oxygen XML or DB2. (Please use XPath/XQuery builder view in Oxygen to edit and run the queries, otherwise you may run into a sequence error.) Query 1. XPath (6 points): a. Write an XPath query to return purchase order numbers for those shipped orders containing an item with partid “100- 201-01”. b. Using customerinfo.xml, write an XPath query to return the name(s) of customers who live in the city “Toronto” and have an assistant. Return names as text only. Query 2. XQuery (4 points): Write an XQuery to return the total cost (total quantities from multiple orders multiplied by the price) for each unique product (represented by partid or pid) in all purchase orders, sorted by partid. The result format should look like: 139.86 YYYYY … (Hint: You may want to group by partid using purchaseorders.xml and find the price for each product using products.xml. )
